@@ -16,6 +16,11 @@
 		27905FDB177349DC00BA24C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27905FDA177349DC00BA24C7 /* MainMenu.xib */; };
 		27B97E5217733234001D81DB /* CloudApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B97E5117733234001D81DB /* CloudApp.m */; };
 		2A4A7197179017FB00EDD13C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A7196179017FB00EDD13C /* CoreLocation.framework */; };
+		2A4A719917901A5000EDD13C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A719817901A5000EDD13C /* QuartzCore.framework */; };
+		2A4A719B17901B0000EDD13C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A719A17901B0000EDD13C /* Quartz.framework */; };
+		2A4A719C17901DBA00EDD13C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A719A17901B0000EDD13C /* Quartz.framework */; };
+		2A4A719D17901DBF00EDD13C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A719817901A5000EDD13C /* QuartzCore.framework */; };
+		2A4A719E17901DC600EDD13C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A7196179017FB00EDD13C /* CoreLocation.framework */; };
 		AB37F59116808DB5005E8D79 /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = AB37F59016808DB5005E8D79 /* AppIcon.iconset */; };
 		ABD680141680B878001CB233 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD680131680B878001CB233 /* Security.framework */; };
 		ABDCE8D616808F270050F06E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB37F577168085F4005E8D79 /* main.m */; };
@@ -74,6 +79,8 @@
 		27B97E5017733234001D81DB /* CloudApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp.h; sourceTree = "<group>"; };
 		27B97E5117733234001D81DB /* CloudApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudApp.m; sourceTree = "<group>"; };
 		2A4A7196179017FB00EDD13C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A4A719817901A5000EDD13C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2A4A719A17901B0000EDD13C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		AB37F573168085F4005E8D79 /* CloudApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudApplication-Info.plist"; sourceTree = "<group>"; };
 		AB37F575168085F4005E8D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB37F577168085F4005E8D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4A719B17901B0000EDD13C /* Quartz.framework in Frameworks */,
+				2A4A719917901A5000EDD13C /* QuartzCore.framework in Frameworks */,
 				2A4A7197179017FB00EDD13C /* CoreLocation.framework in Frameworks */,
 				ABF086801771CCC200B66648 /* OCFoundation.framework in Frameworks */,
 				ABD680141680B878001CB233 /* Security.framework in Frameworks */,
@@ -101,6 +110,9 @@
 			files = (
 				ABF086811771CCCA00B66648 /* OCFoundation.framework in Frameworks */,
 				275A42BB166793DB00E9AA3A /* Foundation.framework in Frameworks */,
+				2A4A719C17901DBA00EDD13C /* Quartz.framework in Frameworks */,
+				2A4A719D17901DBF00EDD13C /* QuartzCore.framework in Frameworks */,
+				2A4A719E17901DC600EDD13C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +141,8 @@
 		275A425E1667873000E9AA3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A4A719A17901B0000EDD13C /* Quartz.framework */,
+				2A4A719817901A5000EDD13C /* QuartzCore.framework */,
 				ABF0867F1771CCC200B66648 /* OCFoundation.framework */,
 				2A4A7196179017FB00EDD13C /* CoreLocation.framework */,
 				ABD680131680B878001CB233 /* Security.framework */,

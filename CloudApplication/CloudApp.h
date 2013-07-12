@@ -11,9 +11,6 @@
 
 @protocol CloudAppPublishing <NSObject>
 + (NSString *)sayHelloCloudApp;
-+ (NSDictionary *)facesInImageAtURL:(NSString *)imageURLStringValue;
-+ (NSString *)nameOfLocationAtLatitude:(NSNumber *)latitude
-                             longitude:(NSNumber *)longitude;
 @end
 
 #import <OCFoundation/OCFCloudApp.h>
