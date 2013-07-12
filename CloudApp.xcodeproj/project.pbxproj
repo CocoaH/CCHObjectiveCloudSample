@@ -1,1079 +1,505 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>27191E091667A95F0008F5AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>275A42AF16678F0300E9AA3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27191E0B1667A9760008F5AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>275A42AB16678F0300E9AA3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>272A4177166FAA8100B97EC0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Service.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>272A4178166FAA8100B97EC0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Service.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>272A417A166FAAD100B97EC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272A4178166FAA8100B97EC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>275A42501667872F00E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ABF0867F1771CCC200B66648</string>
-				<string>AB37F571168085F4005E8D79</string>
-				<string>275A42A816678F0300E9AA3A</string>
-				<string>275A425E1667873000E9AA3A</string>
-				<string>275A425C1667873000E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42521667872F00E9AA3A</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Your Company</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>275A42551667872F00E9AA3A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>275A42501667872F00E9AA3A</string>
-			<key>productRefGroup</key>
-			<string>275A425C1667873000E9AA3A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>275A427F1667877300E9AA3A</string>
-				<string>275A42B9166793DB00E9AA3A</string>
-			</array>
-		</dict>
-		<key>275A42551667872F00E9AA3A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>275A42771667873000E9AA3A</string>
-				<string>275A42781667873000E9AA3A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>275A425C1667873000E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>275A42801667877300E9AA3A</string>
-				<string>275A42BA166793DB00E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A425E1667873000E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ABD680131680B878001CB233</string>
-				<string>275A425F1667873000E9AA3A</string>
-				<string>275A42A616678F0300E9AA3A</string>
-				<string>275A42611667873000E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A425F1667873000E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Cocoa.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Cocoa.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>275A42611667873000E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>275A42621667873000E9AA3A</string>
-				<string>275A42631667873000E9AA3A</string>
-				<string>275A42641667873000E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Other Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42621667873000E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AppKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>275A42631667873000E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>275A42641667873000E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>275A42771667873000E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>ocloudfacedetector</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>1fm10ss4z0kuo</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>com.marcuskida</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>275A42781667873000E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>ocloudfacedetector</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>1fm10ss4z0kuo</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>com.marcuskida</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>275A427C1667877300E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ABDCE8D616808F270050F06E</string>
-				<string>27B97E5217733234001D81DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A427D1667877300E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ABF086801771CCC200B66648</string>
-				<string>ABD680141680B878001CB233</string>
-				<string>275A42821667877300E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A427E1667877300E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AB37F59116808DB5005E8D79</string>
-				<string>27905FDB177349DC00BA24C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A427F1667877300E9AA3A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>275A42951667877300E9AA3A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>275A427C1667877300E9AA3A</string>
-				<string>275A427D1667877300E9AA3A</string>
-				<string>275A427E1667877300E9AA3A</string>
-				<string>275A42B416678F0D00E9AA3A</string>
-				<string>27E2A1E316C2AAB300710745</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CloudApp</string>
-			<key>productName</key>
-			<string>1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector</string>
-			<key>productReference</key>
-			<string>275A42801667877300E9AA3A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>275A42801667877300E9AA3A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app</string>
-			<key>path</key>
-			<string>1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>275A42821667877300E9AA3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>275A425F1667873000E9AA3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>275A42951667877300E9AA3A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>275A42961667877300E9AA3A</string>
-				<string>275A42971667877300E9AA3A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>275A42961667877300E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-					<string>/Library/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudApplication/CloudApplication-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudApplication/CloudApplication-Info.plist</string>
-				<key>LD_DYLIB_INSTALL_NAME</key>
-				<string>$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string></string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>$(inherited)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>275A42971667877300E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-					<string>/Library/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudApplication/CloudApplication-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudApplication/CloudApplication-Info.plist</string>
-				<key>LD_DYLIB_INSTALL_NAME</key>
-				<string>$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string></string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>$(inherited)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>275A42A616678F0300E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>275A42A816678F0300E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>272A4177166FAA8100B97EC0</string>
-				<string>272A4178166FAA8100B97EC0</string>
-				<string>275A42A916678F0300E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Cloud Service</string>
-			<key>path</key>
-			<string>CloudApp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42A916678F0300E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>275A42AF16678F0300E9AA3A</string>
-				<string>275A42AA16678F0300E9AA3A</string>
-				<string>275A42AB16678F0300E9AA3A</string>
-				<string>275A42AE16678F0300E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42AA16678F0300E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>CloudApp-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42AB16678F0300E9AA3A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>275A42AC16678F0300E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42AC16678F0300E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42AE16678F0300E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CloudApp-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42AF16678F0300E9AA3A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>275A42B416678F0D00E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>Contents/XPCServices</string>
-			<key>dstSubfolderSpec</key>
-			<string>1</string>
-			<key>files</key>
-			<array>
-				<string>275A42C8166793E800E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Copy CloudServices</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A42B6166793DB00E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27191E091667A95F0008F5AC</string>
-				<string>272A417A166FAAD100B97EC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A42B7166793DB00E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ABF086811771CCCA00B66648</string>
-				<string>275A42BB166793DB00E9AA3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A42B8166793DB00E9AA3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27191E0B1667A9760008F5AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>275A42B9166793DB00E9AA3A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>275A42C5166793DB00E9AA3A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>275A42B6166793DB00E9AA3A</string>
-				<string>275A42B7166793DB00E9AA3A</string>
-				<string>275A42B8166793DB00E9AA3A</string>
-				<string>27D4DAF916C3C5D200955B5E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Service</string>
-			<key>productName</key>
-			<string>CloudApp</string>
-			<key>productReference</key>
-			<string>275A42BA166793DB00E9AA3A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>275A42BA166793DB00E9AA3A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>local.com.yourcompany.CloudApp.Service.xpc</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>275A42BB166793DB00E9AA3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>275A42A616678F0300E9AA3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>275A42C5166793DB00E9AA3A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>275A42C6166793DB00E9AA3A</string>
-				<string>275A42C7166793DB00E9AA3A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>275A42C6166793DB00E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-					<string>/Library/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudApp/CloudApp-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudApp/CloudApp-Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>@loader_path/..</string>
-				<key>MACH_O_TYPE</key>
-				<string>mh_execute</string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>$(inherited)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME).$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xpc</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>275A42C7166793DB00E9AA3A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-					<string>/Library/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CloudApp/CloudApp-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudApp/CloudApp-Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>@loader_path/..</string>
-				<key>MACH_O_TYPE</key>
-				<string>mh_execute</string>
-				<key>OBJECTIVE_CLOUD_APPLICATION_NAME</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_TEAM_PREFIX</key>
-				<string>$(inherited)</string>
-				<key>OBJECTIVE_CLOUD_USER_IDENTIFIER</key>
-				<string>$(inherited)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME).$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xpc</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>275A42C8166793E800E9AA3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>275A42BA166793DB00E9AA3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27905FDA177349DC00BA24C7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>MainMenu.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27905FDB177349DC00BA24C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27905FDA177349DC00BA24C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27B97E5017733234001D81DB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CloudApp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27B97E5117733234001D81DB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CloudApp.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27B97E5217733234001D81DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27B97E5117733234001D81DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27D4DAF916C3C5D200955B5E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>10</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Copy Frameworks</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27E2A1E316C2AAB300710745</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>10</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AB37F571168085F4005E8D79</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>27B97E5017733234001D81DB</string>
-				<string>27B97E5117733234001D81DB</string>
-				<string>AB37F572168085F4005E8D79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CloudApplication</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F572168085F4005E8D79</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AB37F577168085F4005E8D79</string>
-				<string>AB37F573168085F4005E8D79</string>
-				<string>AB37F574168085F4005E8D79</string>
-				<string>AB37F579168085F4005E8D79</string>
-				<string>AB37F59016808DB5005E8D79</string>
-				<string>27905FDA177349DC00BA24C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F573168085F4005E8D79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>CloudApplication-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F574168085F4005E8D79</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AB37F575168085F4005E8D79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F575168085F4005E8D79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F577168085F4005E8D79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F579168085F4005E8D79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CloudApplication-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB37F59016808DB5005E8D79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.iconset</string>
-			<key>name</key>
-			<string>AppIcon.iconset</string>
-			<key>path</key>
-			<string>CloudApplication/AppIcon.iconset</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AB37F59116808DB5005E8D79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB37F59016808DB5005E8D79</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABD680131680B878001CB233</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>ABD680141680B878001CB233</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABD680131680B878001CB233</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABDCE8D616808F270050F06E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB37F577168085F4005E8D79</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABF0867F1771CCC200B66648</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>OCFoundation.framework</string>
-			<key>path</key>
-			<string>../../../../../../Library/Frameworks/OCFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABF086801771CCC200B66648</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABF0867F1771CCC200B66648</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABF086811771CCCA00B66648</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABF0867F1771CCC200B66648</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>275A42521667872F00E9AA3A</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27191E091667A95F0008F5AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275A42AF16678F0300E9AA3A /* main.m */; };
+		27191E0B1667A9760008F5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 275A42AB16678F0300E9AA3A /* InfoPlist.strings */; };
+		272A417A166FAAD100B97EC0 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A4178166FAA8100B97EC0 /* Service.m */; };
+		275A42821667877300E9AA3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275A425F1667873000E9AA3A /* Cocoa.framework */; };
+		275A42BB166793DB00E9AA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275A42A616678F0300E9AA3A /* Foundation.framework */; };
+		275A42C8166793E800E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc in Copy CloudServices */ = {isa = PBXBuildFile; fileRef = 275A42BA166793DB00E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc */; };
+		27905FDB177349DC00BA24C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27905FDA177349DC00BA24C7 /* MainMenu.xib */; };
+		27B97E5217733234001D81DB /* CloudApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B97E5117733234001D81DB /* CloudApp.m */; };
+		2A4A7197179017FB00EDD13C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A7196179017FB00EDD13C /* CoreLocation.framework */; };
+		AB37F59116808DB5005E8D79 /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = AB37F59016808DB5005E8D79 /* AppIcon.iconset */; };
+		ABD680141680B878001CB233 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD680131680B878001CB233 /* Security.framework */; };
+		ABDCE8D616808F270050F06E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB37F577168085F4005E8D79 /* main.m */; };
+		ABF086801771CCC200B66648 /* OCFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF0867F1771CCC200B66648 /* OCFoundation.framework */; };
+		ABF086811771CCCA00B66648 /* OCFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF0867F1771CCC200B66648 /* OCFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		275A42B416678F0D00E9AA3A /* Copy CloudServices */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/XPCServices;
+			dstSubfolderSpec = 1;
+			files = (
+				275A42C8166793E800E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc in Copy CloudServices */,
+			);
+			name = "Copy CloudServices";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D4DAF916C3C5D200955B5E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E2A1E316C2AAB300710745 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		272A4177166FAA8100B97EC0 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		272A4178166FAA8100B97EC0 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		275A425F1667873000E9AA3A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		275A42621667873000E9AA3A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		275A42631667873000E9AA3A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		275A42641667873000E9AA3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275A42801667877300E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275A42A616678F0300E9AA3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275A42AA16678F0300E9AA3A /* CloudApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudApp-Info.plist"; sourceTree = "<group>"; };
+		275A42AC16678F0300E9AA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		275A42AE16678F0300E9AA3A /* CloudApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudApp-Prefix.pch"; sourceTree = "<group>"; };
+		275A42AF16678F0300E9AA3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		275A42BA166793DB00E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		27905FDA177349DC00BA24C7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		27B97E5017733234001D81DB /* CloudApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp.h; sourceTree = "<group>"; };
+		27B97E5117733234001D81DB /* CloudApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudApp.m; sourceTree = "<group>"; };
+		2A4A7196179017FB00EDD13C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB37F573168085F4005E8D79 /* CloudApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudApplication-Info.plist"; sourceTree = "<group>"; };
+		AB37F575168085F4005E8D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB37F577168085F4005E8D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB37F579168085F4005E8D79 /* CloudApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudApplication-Prefix.pch"; sourceTree = "<group>"; };
+		AB37F59016808DB5005E8D79 /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = AppIcon.iconset; path = CloudApplication/AppIcon.iconset; sourceTree = SOURCE_ROOT; };
+		ABD680131680B878001CB233 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ABF0867F1771CCC200B66648 /* OCFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCFoundation.framework; path = /Library/Frameworks/OCFoundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275A427D1667877300E9AA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4A7197179017FB00EDD13C /* CoreLocation.framework in Frameworks */,
+				ABF086801771CCC200B66648 /* OCFoundation.framework in Frameworks */,
+				ABD680141680B878001CB233 /* Security.framework in Frameworks */,
+				275A42821667877300E9AA3A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275A42B7166793DB00E9AA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF086811771CCCA00B66648 /* OCFoundation.framework in Frameworks */,
+				275A42BB166793DB00E9AA3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275A42501667872F00E9AA3A = {
+			isa = PBXGroup;
+			children = (
+				AB37F571168085F4005E8D79 /* CloudApplication */,
+				275A42A816678F0300E9AA3A /* Cloud Service */,
+				275A425E1667873000E9AA3A /* Frameworks */,
+				275A425C1667873000E9AA3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275A425C1667873000E9AA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275A42801667877300E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app */,
+				275A42BA166793DB00E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275A425E1667873000E9AA3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0867F1771CCC200B66648 /* OCFoundation.framework */,
+				2A4A7196179017FB00EDD13C /* CoreLocation.framework */,
+				ABD680131680B878001CB233 /* Security.framework */,
+				275A425F1667873000E9AA3A /* Cocoa.framework */,
+				275A42A616678F0300E9AA3A /* Foundation.framework */,
+				275A42611667873000E9AA3A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		275A42611667873000E9AA3A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275A42621667873000E9AA3A /* AppKit.framework */,
+				275A42631667873000E9AA3A /* CoreData.framework */,
+				275A42641667873000E9AA3A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		275A42A816678F0300E9AA3A /* Cloud Service */ = {
+			isa = PBXGroup;
+			children = (
+				272A4177166FAA8100B97EC0 /* Service.h */,
+				272A4178166FAA8100B97EC0 /* Service.m */,
+				275A42A916678F0300E9AA3A /* Supporting Files */,
+			);
+			name = "Cloud Service";
+			path = CloudApp;
+			sourceTree = "<group>";
+		};
+		275A42A916678F0300E9AA3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				275A42AF16678F0300E9AA3A /* main.m */,
+				275A42AA16678F0300E9AA3A /* CloudApp-Info.plist */,
+				275A42AB16678F0300E9AA3A /* InfoPlist.strings */,
+				275A42AE16678F0300E9AA3A /* CloudApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB37F571168085F4005E8D79 /* CloudApplication */ = {
+			isa = PBXGroup;
+			children = (
+				27B97E5017733234001D81DB /* CloudApp.h */,
+				27B97E5117733234001D81DB /* CloudApp.m */,
+				AB37F572168085F4005E8D79 /* Supporting Files */,
+			);
+			path = CloudApplication;
+			sourceTree = "<group>";
+		};
+		AB37F572168085F4005E8D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB37F577168085F4005E8D79 /* main.m */,
+				AB37F573168085F4005E8D79 /* CloudApplication-Info.plist */,
+				AB37F574168085F4005E8D79 /* InfoPlist.strings */,
+				AB37F579168085F4005E8D79 /* CloudApplication-Prefix.pch */,
+				AB37F59016808DB5005E8D79 /* AppIcon.iconset */,
+				27905FDA177349DC00BA24C7 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275A427F1667877300E9AA3A /* CloudApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275A42951667877300E9AA3A /* Build configuration list for PBXNativeTarget "CloudApp" */;
+			buildPhases = (
+				275A427C1667877300E9AA3A /* Sources */,
+				275A427D1667877300E9AA3A /* Frameworks */,
+				275A427E1667877300E9AA3A /* Resources */,
+				275A42B416678F0D00E9AA3A /* Copy CloudServices */,
+				27E2A1E316C2AAB300710745 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudApp;
+			productName = 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector;
+			productReference = 275A42801667877300E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		275A42B9166793DB00E9AA3A /* Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275A42C5166793DB00E9AA3A /* Build configuration list for PBXNativeTarget "Service" */;
+			buildPhases = (
+				275A42B6166793DB00E9AA3A /* Sources */,
+				275A42B7166793DB00E9AA3A /* Frameworks */,
+				275A42B8166793DB00E9AA3A /* Resources */,
+				27D4DAF916C3C5D200955B5E /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service;
+			productName = CloudApp;
+			productReference = 275A42BA166793DB00E9AA3A /* 1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275A42521667872F00E9AA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Your Company";
+			};
+			buildConfigurationList = 275A42551667872F00E9AA3A /* Build configuration list for PBXProject "CloudApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 275A42501667872F00E9AA3A;
+			productRefGroup = 275A425C1667873000E9AA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275A427F1667877300E9AA3A /* CloudApp */,
+				275A42B9166793DB00E9AA3A /* Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275A427E1667877300E9AA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB37F59116808DB5005E8D79 /* AppIcon.iconset in Resources */,
+				27905FDB177349DC00BA24C7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275A42B8166793DB00E9AA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27191E0B1667A9760008F5AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275A427C1667877300E9AA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCE8D616808F270050F06E /* main.m in Sources */,
+				27B97E5217733234001D81DB /* CloudApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275A42B6166793DB00E9AA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27191E091667A95F0008F5AC /* main.m in Sources */,
+				272A417A166FAAD100B97EC0 /* Service.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		275A42AB16678F0300E9AA3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275A42AC16678F0300E9AA3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB37F574168085F4005E8D79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB37F575168085F4005E8D79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275A42771667873000E9AA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJECTIVE_CLOUD_APPLICATION_NAME = ocloudfacedetector;
+				OBJECTIVE_CLOUD_TEAM_PREFIX = 1fm10ss4z0kuo;
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = com.marcuskida;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		275A42781667873000E9AA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OBJECTIVE_CLOUD_APPLICATION_NAME = ocloudfacedetector;
+				OBJECTIVE_CLOUD_TEAM_PREFIX = 1fm10ss4z0kuo;
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = com.marcuskida;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		275A42961667877300E9AA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudApplication/CloudApplication-Prefix.pch";
+				INFOPLIST_FILE = "CloudApplication/CloudApplication-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OBJECTIVE_CLOUD_APPLICATION_NAME = "$(inherited)";
+				OBJECTIVE_CLOUD_TEAM_PREFIX = "$(inherited)";
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = "$(inherited)";
+				PRODUCT_NAME = "$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		275A42971667877300E9AA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudApplication/CloudApplication-Prefix.pch";
+				INFOPLIST_FILE = "CloudApplication/CloudApplication-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OBJECTIVE_CLOUD_APPLICATION_NAME = "$(inherited)";
+				OBJECTIVE_CLOUD_TEAM_PREFIX = "$(inherited)";
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = "$(inherited)";
+				PRODUCT_NAME = "$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		275A42C6166793DB00E9AA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudApp/CloudApp-Prefix.pch";
+				INFOPLIST_FILE = "CloudApp/CloudApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/..";
+				MACH_O_TYPE = mh_execute;
+				OBJECTIVE_CLOUD_APPLICATION_NAME = "$(inherited)";
+				OBJECTIVE_CLOUD_TEAM_PREFIX = "$(inherited)";
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = "$(inherited)";
+				PRODUCT_NAME = "$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME).$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Debug;
+		};
+		275A42C7166793DB00E9AA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudApp/CloudApp-Prefix.pch";
+				INFOPLIST_FILE = "CloudApp/CloudApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/..";
+				MACH_O_TYPE = mh_execute;
+				OBJECTIVE_CLOUD_APPLICATION_NAME = "$(inherited)";
+				OBJECTIVE_CLOUD_TEAM_PREFIX = "$(inherited)";
+				OBJECTIVE_CLOUD_USER_IDENTIFIER = "$(inherited)";
+				PRODUCT_NAME = "$(OBJECTIVE_CLOUD_TEAM_PREFIX).$(OBJECTIVE_CLOUD_USER_IDENTIFIER).$(OBJECTIVE_CLOUD_APPLICATION_NAME).$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275A42551667872F00E9AA3A /* Build configuration list for PBXProject "CloudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275A42771667873000E9AA3A /* Debug */,
+				275A42781667873000E9AA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275A42951667877300E9AA3A /* Build configuration list for PBXNativeTarget "CloudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275A42961667877300E9AA3A /* Debug */,
+				275A42971667877300E9AA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275A42C5166793DB00E9AA3A /* Build configuration list for PBXNativeTarget "Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275A42C6166793DB00E9AA3A /* Debug */,
+				275A42C7166793DB00E9AA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275A42521667872F00E9AA3A /* Project object */;
+}

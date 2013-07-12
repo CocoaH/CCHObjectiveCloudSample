@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "275A42B9166793DB00E9AA3A"
-               BuildableName = "local.com.yourcompany.CloudApp.Service.xpc"
+               BuildableName = "1fm10ss4z0kuo.com.marcuskida.ocloudfacedetector.Service.xpc"
                BlueprintName = "Service"
                ReferencedContainer = "container:CloudApp.xcodeproj">
             </BuildableReference>
