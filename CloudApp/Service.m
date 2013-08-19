@@ -47,7 +47,7 @@
     CLGeocoder *reverseGeocoder = [[CLGeocoder alloc] init];
     
     __block NSString *nameOfLocation = nil;
-    dispatch_semaphore_t holdOn = dispatch_semaphore_create(0);
+    __block BOOL finished = NO;
     
     [reverseGeocoder reverseGeocodeLocation:location
                           completionHandler:^(NSArray *placemarks, NSError *error)
@@ -57,12 +57,24 @@
          {
              nameOfLocation = placemark.name;
          }
-         dispatch_semaphore_signal(holdOn);
+         else
+         {
+             nameOfLocation = @"Location not found!";
+         }
+         finished = YES;
      }];
     
-    dispatch_semaphore_wait(holdOn, DISPATCH_TIME_FOREVER);
-    
+    while (!finished)
+    {
+        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1.0f]];
+    }
+
     return nameOfLocation;
+}
+
++ (NSNumber *)addNumbers:(NSNumber *)first andNumber:(NSNumber *)second
+{
+    return [NSNumber numberWithInteger:[first intValue] + [second intValue]];
 }
 @end
 

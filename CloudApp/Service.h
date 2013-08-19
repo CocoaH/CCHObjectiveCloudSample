@@ -14,6 +14,7 @@
 + (NSDictionary *)facesInImageAtURL:(NSString *)imageURLStringValue;
 + (NSString *)nameOfLocationAtLatitude:(NSNumber *)latitude
                              longitude:(NSNumber *)longitude;
++ (NSNumber *)addNumbers:(NSNumber *)first andNumber:(NSNumber *)second;
 @end
 
 @interface NSDictionary(dictionaryWithObject)
